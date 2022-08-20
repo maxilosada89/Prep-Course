@@ -37,7 +37,7 @@ function agregarStringInvertida() {
   // Pista: Necesitarás usar "this" dentro de "reverse"
   String.prototype.reverse = function() {
     let stringInvertida = '';
-    for(let i = this.length - 1; i>=0; i--) {
+    for(let i = this.length - 1; i >= 0; i--) {
       stringInvertida = stringInvertida + this.charAt(i);
     }
     return stringInvertida;
@@ -56,8 +56,6 @@ function agregarStringInvertida() {
     //  }
 
   class Persona {
-    
-      // Crea el constructor:
       constructor(nombre,apellido, edad, domicilio) {
       this.nombre = nombre,
       this.apellido = apellido,
